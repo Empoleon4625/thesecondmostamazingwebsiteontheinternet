@@ -1,0 +1,10 @@
+	body {
+   	
+    font-family:Comic Sans MS;
+    src: url("comic.ttf");
+    cursor: url("sword1.cur"), pointer;
+}
+
+ #canvas_body_div { 
+    position: fixed; 
+} 

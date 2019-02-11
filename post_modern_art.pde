@@ -1,0 +1,25 @@
+size(300,300);
+background(255,255,255,0);
+color c;
+c = color(0,0,255);
+fill(c);
+color d;
+color f;
+f=color(0,255,255);
+rect(250,250,-200,-200);
+d = color(255,0,0);
+color e;
+e=color(0,255,0);
+fill(d);
+rect(50,100,91,46);
+fill(e);
+rect(240,100,-49,23);
+fill(d);
+rect(132,150,73,10);
+fill(f);
+rect(123,225,100,45);
+
+fill(e);
+rect(75,50,10,-73);
+fill(f);
+rect(175,40,43,10);
