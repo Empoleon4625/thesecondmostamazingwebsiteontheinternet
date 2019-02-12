@@ -4,7 +4,10 @@
 <link rel="stylesheet" type="text/css" href="mystyle.css">
 <link rel="icon" href="images/geicon.png">
 <script>
-setTimeout(function(){ alert("My Emoji are gone!"); }, 17500);
+setTimeout(function()
+{
+    document.getElementById('myimage').style.display = 'block';
+},17500);
 </script>
 	</head>
 	
@@ -48,6 +51,11 @@ li a:hover:not(.active) {
 body {
 	cursor: url("sword1.cur"), pointer;
 }
+img.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 1000px;
 </style>
 
 	<body background="images/gene1.png">
@@ -68,7 +76,7 @@ body {
 Upgrade your damn hardware/software.
 </audio>
   
-
+<img class="sticky" id="myimage" src="images/emojigone.gif" style="display:none" />
 <h1 style="color:#FF00FF;"><span style="background-color:FFFF00">The world we live in.
 It's so wondrous, mysterious,
 even magical.
